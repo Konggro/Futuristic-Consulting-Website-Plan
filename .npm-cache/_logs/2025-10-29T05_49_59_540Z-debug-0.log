@@ -1,0 +1,1249 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/macbook/Downloads/Futuristic Consulting Website Plan/.npmrc
+5 silly config load:file:/Users/macbook/.npmrc
+6 silly config load:file:/Users/macbook/.npm-global/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/macbook/Downloads/Futuristic Consulting Website Plan/.npm-cache/_logs/2025-10-29T05_49_59_540Z-
+10 verbose logfile /Users/macbook/Downloads/Futuristic Consulting Website Plan/.npm-cache/_logs/2025-10-29T05_49_59_540Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest motion@*
+15 silly packumentCache full:https://registry.npmjs.org/motion cache-miss
+16 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+17 http fetch GET 200 https://registry.npmjs.org/npm 417ms
+18 http fetch GET 200 https://registry.npmjs.org/motion 268ms (cache miss)
+19 silly packumentCache full:https://registry.npmjs.org/motion set size:undefined disposed:false
+20 silly fetch manifest @emotion/is-prop-valid@*
+21 silly packumentCache full:https://registry.npmjs.org/@emotion%2fis-prop-valid cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/@emotion%2fis-prop-valid 372ms (cache miss)
+23 silly packumentCache full:https://registry.npmjs.org/@emotion%2fis-prop-valid set size:undefined disposed:false
+24 silly fetch manifest react@^18.3.1
+25 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/react 750ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+28 silly fetch manifest react-dom@^18.3.1
+29 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/react-dom 401ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+32 silly fetch manifest vite@6.3.5
+33 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/vite 1671ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/vite set size:undefined disposed:false
+36 silly fetch manifest @types/node@^20.10.0
+37 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 302ms (cache miss)
+39 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+40 silly fetch manifest jiti@>=1.21.0
+41 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/jiti 80ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/jiti set size:undefined disposed:false
+44 silly fetch manifest less@*
+45 silly packumentCache full:https://registry.npmjs.org/less cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/less 202ms (cache miss)
+47 silly packumentCache full:https://registry.npmjs.org/less set size:undefined disposed:false
+48 silly fetch manifest lightningcss@^1.21.0
+49 silly packumentCache full:https://registry.npmjs.org/lightningcss cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/lightningcss 200ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/lightningcss set size:undefined disposed:false
+52 silly fetch manifest sass@*
+53 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/sass 293ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/sass set size:undefined disposed:false
+56 silly fetch manifest sass-embedded@*
+57 silly packumentCache full:https://registry.npmjs.org/sass-embedded cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/sass-embedded 209ms (cache miss)
+59 silly packumentCache full:https://registry.npmjs.org/sass-embedded set size:undefined disposed:false
+60 silly fetch manifest stylus@*
+61 silly packumentCache full:https://registry.npmjs.org/stylus cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/stylus 197ms (cache miss)
+63 silly packumentCache full:https://registry.npmjs.org/stylus set size:undefined disposed:false
+64 silly fetch manifest sugarss@*
+65 silly packumentCache full:https://registry.npmjs.org/sugarss cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/sugarss 213ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/sugarss set size:undefined disposed:false
+68 silly fetch manifest postcss@^8.3.3
+69 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/postcss 76ms (cache miss)
+71 silly packumentCache full:https://registry.npmjs.org/postcss set size:undefined disposed:false
+72 silly fetch manifest terser@^5.16.0
+73 silly packumentCache full:https://registry.npmjs.org/terser cache-miss
+74 http fetch GET 200 https://registry.npmjs.org/terser 179ms (cache miss)
+75 silly packumentCache full:https://registry.npmjs.org/terser set size:undefined disposed:false
+76 silly fetch manifest tsx@^4.8.1
+77 silly packumentCache full:https://registry.npmjs.org/tsx cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/tsx 168ms (cache miss)
+79 silly packumentCache full:https://registry.npmjs.org/tsx set size:undefined disposed:false
+80 silly fetch manifest yaml@^2.4.2
+81 silly packumentCache full:https://registry.npmjs.org/yaml cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/yaml 73ms (cache miss)
+83 silly packumentCache full:https://registry.npmjs.org/yaml set size:undefined disposed:false
+84 silly placeDep ROOT motion@12.23.24 OK for: Futuristic Consulting Website Plan@0.1.0 want: *
+85 silly placeDep ROOT vite@6.3.5 REPLACE for: Futuristic Consulting Website Plan@0.1.0 want: 6.3.5
+86 silly fetch manifest framer-motion@^12.23.24
+87 silly packumentCache full:https://registry.npmjs.org/framer-motion cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/framer-motion 196ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/framer-motion set size:undefined disposed:false
+90 silly fetch manifest react@^18.0.0 || ^19.0.0
+91 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+92 http cache https://registry.npmjs.org/react 32ms (cache hit)
+93 silly packumentCache full:https://registry.npmjs.org/react set size:6204863 disposed:false
+94 silly fetch manifest react-dom@^18.0.0 || ^19.0.0
+95 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+96 http cache https://registry.npmjs.org/react-dom 29ms (cache hit)
+97 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8104668 disposed:false
+98 silly placeDep ROOT framer-motion@12.23.24 REPLACE for: motion@12.23.24 want: ^12.23.24
+99 silly fetch manifest motion-dom@^12.23.23
+100 silly packumentCache full:https://registry.npmjs.org/motion-dom cache-miss
+101 silly fetch manifest motion-utils@^12.23.6
+102 silly packumentCache full:https://registry.npmjs.org/motion-utils cache-miss
+103 http fetch GET 200 https://registry.npmjs.org/motion-utils 63ms (cache miss)
+104 silly packumentCache full:https://registry.npmjs.org/motion-utils set size:undefined disposed:false
+105 http fetch GET 200 https://registry.npmjs.org/motion-dom 83ms (cache miss)
+106 silly packumentCache full:https://registry.npmjs.org/motion-dom set size:undefined disposed:false
+107 silly placeDep ROOT motion-dom@12.23.23 OK for: framer-motion@12.23.24 want: ^12.23.23
+108 silly placeDep ROOT motion-utils@12.23.6 OK for: framer-motion@12.23.24 want: ^12.23.6
+109 silly reify mark retired [
+109 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/ansi-regex'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/anymatch'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/ansi-styles'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/any-promise'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/autoprefixer',
+113 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/autoprefixer'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/balanced-match'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/arg'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/binary-extensions'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/baseline-browser-mapping',
+117 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/baseline-browser-mapping'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/brace-expansion'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/braces'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/browserslist',
+120 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/browserslist'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/caniuse-lite'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/camelcase-css'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/chokidar'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/color-convert'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/color-name'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/commander'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/cssesc',
+127 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/cssesc'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/cross-spawn'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/dlv'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/didyoumean'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/eastasianwidth'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/electron-to-chromium'
+132 silly reify ]
+133 silly reify mark retired [
+133 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/emoji-regex'
+133 silly reify ]
+134 silly reify mark retired [
+134 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/escalade'
+134 silly reify ]
+135 silly reify mark retired [
+135 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/fast-glob'
+135 silly reify ]
+136 silly reify mark retired [
+136 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/fill-range'
+136 silly reify ]
+137 silly reify mark retired [
+137 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/fastq'
+137 silly reify ]
+138 silly reify mark retired [
+138 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/foreground-child'
+138 silly reify ]
+139 silly reify mark retired [
+139 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/fraction.js'
+139 silly reify ]
+140 silly reify mark retired [
+140 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/function-bind'
+140 silly reify ]
+141 silly reify mark retired [
+141 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/framer-motion'
+141 silly reify ]
+142 silly reify mark retired [
+142 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/glob',
+142 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/glob'
+142 silly reify ]
+143 silly reify mark retired [
+143 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/glob-parent'
+143 silly reify ]
+144 silly reify mark retired [
+144 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/hasown'
+144 silly reify ]
+145 silly reify mark retired [
+145 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/is-core-module'
+145 silly reify ]
+146 silly reify mark retired [
+146 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/is-extglob'
+146 silly reify ]
+147 silly reify mark retired [
+147 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/is-binary-path'
+147 silly reify ]
+148 silly reify mark retired [
+148 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/is-fullwidth-code-point'
+148 silly reify ]
+149 silly reify mark retired [
+149 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/isexe'
+149 silly reify ]
+150 silly reify mark retired [
+150 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/is-glob'
+150 silly reify ]
+151 silly reify mark retired [
+151 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/jackspeak'
+151 silly reify ]
+152 silly reify mark retired [
+152 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/is-number'
+152 silly reify ]
+153 silly reify mark retired [
+153 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/lines-and-columns'
+153 silly reify ]
+154 silly reify mark retired [
+154 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/lru-cache'
+154 silly reify ]
+155 silly reify mark retired [
+155 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/merge2'
+155 silly reify ]
+156 silly reify mark retired [
+156 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/lilconfig'
+156 silly reify ]
+157 silly reify mark retired [
+157 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/micromatch'
+157 silly reify ]
+158 silly reify mark retired [
+158 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/minimatch'
+158 silly reify ]
+159 silly reify mark retired [
+159 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/motion-utils'
+159 silly reify ]
+160 silly reify mark retired [
+160 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/minipass'
+160 silly reify ]
+161 silly reify mark retired [
+161 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/mz'
+161 silly reify ]
+162 silly reify mark retired [
+162 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/motion-dom'
+162 silly reify ]
+163 silly reify mark retired [
+163 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/node-releases'
+163 silly reify ]
+164 silly reify mark retired [
+164 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/normalize-range'
+164 silly reify ]
+165 silly reify mark retired [
+165 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/object-hash'
+165 silly reify ]
+166 silly reify mark retired [
+166 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/package-json-from-dist'
+166 silly reify ]
+167 silly reify mark retired [
+167 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/path-key'
+167 silly reify ]
+168 silly reify mark retired [
+168 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/path-parse'
+168 silly reify ]
+169 silly reify mark retired [
+169 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/path-scurry'
+169 silly reify ]
+170 silly reify mark retired [
+170 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/normalize-path'
+170 silly reify ]
+171 silly reify mark retired [
+171 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/picomatch'
+171 silly reify ]
+172 silly reify mark retired [
+172 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/pify'
+172 silly reify ]
+173 silly reify mark retired [
+173 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/pirates'
+173 silly reify ]
+174 silly reify mark retired [
+174 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/postcss-import'
+174 silly reify ]
+175 silly reify mark retired [
+175 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/postcss-js'
+175 silly reify ]
+176 silly reify mark retired [
+176 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/postcss-load-config'
+176 silly reify ]
+177 silly reify mark retired [
+177 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/postcss-nested'
+177 silly reify ]
+178 silly reify mark retired [
+178 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/postcss-selector-parser'
+178 silly reify ]
+179 silly reify mark retired [
+179 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/queue-microtask'
+179 silly reify ]
+180 silly reify mark retired [
+180 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/postcss-value-parser'
+180 silly reify ]
+181 silly reify mark retired [
+181 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/read-cache'
+181 silly reify ]
+182 silly reify mark retired [
+182 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/readdirp'
+182 silly reify ]
+183 silly reify mark retired [
+183 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/resolve',
+183 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/resolve'
+183 silly reify ]
+184 silly reify mark retired [
+184 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/reusify'
+184 silly reify ]
+185 silly reify mark retired [
+185 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/run-parallel'
+185 silly reify ]
+186 silly reify mark retired [
+186 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/shebang-regex'
+186 silly reify ]
+187 silly reify mark retired [
+187 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/shebang-command'
+187 silly reify ]
+188 silly reify mark retired [
+188 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/signal-exit'
+188 silly reify ]
+189 silly reify mark retired [
+189 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/string-width'
+189 silly reify ]
+190 silly reify mark retired [
+190 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/string-width-cjs'
+190 silly reify ]
+191 silly reify mark retired [
+191 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/strip-ansi'
+191 silly reify ]
+192 silly reify mark retired [
+192 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/sucrase',
+192 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/sucrase',
+192 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/sucrase-node'
+192 silly reify ]
+193 silly reify mark retired [
+193 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/supports-preserve-symlinks-flag'
+193 silly reify ]
+194 silly reify mark retired [
+194 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/strip-ansi-cjs'
+194 silly reify ]
+195 silly reify mark retired [
+195 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/tailwindcss',
+195 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/tailwind',
+195 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/tailwindcss'
+195 silly reify ]
+196 silly reify mark retired [
+196 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/thenify'
+196 silly reify ]
+197 silly reify mark retired [
+197 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/thenify-all'
+197 silly reify ]
+198 silly reify mark retired [
+198 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/to-regex-range'
+198 silly reify ]
+199 silly reify mark retired [
+199 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/ts-interface-checker'
+199 silly reify ]
+200 silly reify mark retired [
+200 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/update-browserslist-db',
+200 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/update-browserslist-db'
+200 silly reify ]
+201 silly reify mark retired [
+201 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/typescript',
+201 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/tsc',
+201 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/tsserver'
+201 silly reify ]
+202 silly reify mark retired [
+202 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/util-deprecate'
+202 silly reify ]
+203 silly reify mark retired [
+203 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/which',
+203 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/node-which'
+203 silly reify ]
+204 silly reify mark retired [
+204 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/vite',
+204 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/vite'
+204 silly reify ]
+205 silly reify mark retired [
+205 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/wrap-ansi'
+205 silly reify ]
+206 silly reify mark retired [
+206 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@alloc/quick-lru'
+206 silly reify ]
+207 silly reify mark retired [
+207 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/wrap-ansi-cjs'
+207 silly reify ]
+208 silly reify mark retired [
+208 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@isaacs/cliui'
+208 silly reify ]
+209 silly reify mark retired [
+209 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@jridgewell/gen-mapping'
+209 silly reify ]
+210 silly reify mark retired [
+210 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@jridgewell/trace-mapping'
+210 silly reify ]
+211 silly reify mark retired [
+211 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@jridgewell/resolve-uri'
+211 silly reify ]
+212 silly reify mark retired [
+212 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@jridgewell/sourcemap-codec'
+212 silly reify ]
+213 silly reify mark retired [
+213 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@nodelib/fs.scandir'
+213 silly reify ]
+214 silly reify mark retired [
+214 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@nodelib/fs.walk'
+214 silly reify ]
+215 silly reify mark retired [
+215 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@nodelib/fs.stat'
+215 silly reify ]
+216 silly reify mark retired [
+216 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@pkgjs/parseargs'
+216 silly reify ]
+217 silly reify moves {
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/ansi-regex': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.ansi-regex-t1169UId',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/anymatch': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.anymatch-dmhQKSTH',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/ansi-styles': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.ansi-styles-X3Mr39qQ',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/any-promise': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.any-promise-f2c9yfpT',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/autoprefixer': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.autoprefixer-0zZnhPtq',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/autoprefixer': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/.autoprefixer-UyPqHgZB',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/balanced-match': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.balanced-match-3aiYP9BZ',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/arg': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.arg-h2dWRtKP',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/binary-extensions': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.binary-extensions-hXJ2Bq07',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/baseline-browser-mapping': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.baseline-browser-mapping-0YC2lgRl',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/baseline-browser-mapping': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/.baseline-browser-mapping-LIskHyrI',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/brace-expansion': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.brace-expansion-QRH1yOUx',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/braces': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.braces-ePrXANLn',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/browserslist': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.browserslist-CdkhCjdb',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/browserslist': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/.browserslist-lIHgioAn',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/caniuse-lite': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.caniuse-lite-XxbKGDvb',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/camelcase-css': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.camelcase-css-58CahBxS',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/chokidar': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.chokidar-i9j26nT6',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/color-convert': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.color-convert-Li84ZQeb',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/color-name': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.color-name-sg36kxaV',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/commander': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.commander-soSo7ghu',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/cssesc': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.cssesc-mGIZGf1d',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/cssesc': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/.cssesc-K1h4GzpX',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/cross-spawn': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.cross-spawn-ESpWsw86',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/dlv': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.dlv-JcEJ5SuM',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/didyoumean': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.didyoumean-QFTdYw8a',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/eastasianwidth': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.eastasianwidth-9RGkU3Ls',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/electron-to-chromium': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.electron-to-chromium-0NUPmVmt',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/emoji-regex': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.emoji-regex-KiEpp0ZW',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/escalade': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.escalade-7XujGKtP',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/fast-glob': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.fast-glob-dvJMDZ3G',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/fill-range': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.fill-range-YpOCj0cn',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/fastq': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.fastq-APqzd6Cb',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/foreground-child': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.foreground-child-OERkU0Ln',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/fraction.js': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.fraction.js-rPn0wGAy',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/function-bind': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.function-bind-deYax1Hl',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/framer-motion': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.framer-motion-dvdvYMas',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/glob': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.glob-S7NEayoA',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/glob': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/.glob-hRbyfLEA',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/glob-parent': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.glob-parent-zTF4YoM5',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/hasown': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.hasown-IJ9s8CFL',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/is-core-module': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.is-core-module-RxLXPjl1',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/is-extglob': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.is-extglob-xZPUS1t0',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/is-binary-path': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.is-binary-path-QpHLo733',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/is-fullwidth-code-point': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.is-fullwidth-code-point-WhhsqkBn',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/isexe': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.isexe-Xo6PxGEb',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/is-glob': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.is-glob-kKIuvOLG',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/jackspeak': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.jackspeak-AHjriKci',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/is-number': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.is-number-bPae2hGC',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/lines-and-columns': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.lines-and-columns-VaPWNRf0',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/lru-cache': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.lru-cache-jxrrj1Uu',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/merge2': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.merge2-i37IBfXq',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/lilconfig': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.lilconfig-S4pBmEc7',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/micromatch': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.micromatch-Gd9yK3cw',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/minimatch': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.minimatch-tz5NLkMc',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/motion-utils': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.motion-utils-82QXCweN',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/minipass': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.minipass-bw9pRuKS',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/mz': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.mz-HnRo8a5G',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/motion-dom': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.motion-dom-qOOBrP03',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/node-releases': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.node-releases-wsfBMMIT',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/normalize-range': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.normalize-range-Jps2r6jG',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/object-hash': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.object-hash-z9REqQ6R',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/package-json-from-dist': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.package-json-from-dist-QiwKg2wn',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/path-key': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.path-key-laTBzKCV',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/path-parse': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.path-parse-zkL3LG7w',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/path-scurry': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.path-scurry-e8YZ7mA5',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/normalize-path': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.normalize-path-onHoq5bf',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/picomatch': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.picomatch-ZA60pF4l',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/pify': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.pify-7M08SZHb',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/pirates': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.pirates-t6ZqfWCo',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/postcss-import': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.postcss-import-bycDzn1r',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/postcss-js': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.postcss-js-sEJHPCCy',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/postcss-load-config': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.postcss-load-config-f0TY5xRm',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/postcss-nested': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.postcss-nested-CXpd15Lm',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/postcss-selector-parser': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.postcss-selector-parser-B1RhtmTo',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/queue-microtask': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.queue-microtask-ZKwNk4Xw',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/postcss-value-parser': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.postcss-value-parser-wBXgVo3K',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/read-cache': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.read-cache-OIPvLwlQ',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/readdirp': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.readdirp-OhdfQjRa',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/resolve': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.resolve-yAYtIfCS',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/resolve': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/.resolve-1F2NgVP3',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/reusify': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.reusify-gBF9KG1M',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/run-parallel': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.run-parallel-cLc1Wsux',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/shebang-regex': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.shebang-regex-Bno567dz',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/shebang-command': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.shebang-command-WTwqYKWB',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/signal-exit': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.signal-exit-CgYgFIhD',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/string-width': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.string-width-h0b9oOXq',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/string-width-cjs': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.string-width-cjs-mtUI8M9p',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/strip-ansi': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.strip-ansi-kgOxFZr3',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/sucrase': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.sucrase-7JGzvIoV',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/sucrase': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/.sucrase-j7hAE6UL',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/sucrase-node': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/.sucrase-node-0evytOr2',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/supports-preserve-symlinks-flag': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.supports-preserve-symlinks-flag-6CttnP4p',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/strip-ansi-cjs': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.strip-ansi-cjs-yw36K2ol',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/tailwindcss': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.tailwindcss-jsZfkAcM',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/tailwind': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/.tailwind-PeRzCDPe',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/tailwindcss': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/.tailwindcss-DOo2hVen',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/thenify': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.thenify-T1V7HlDm',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/thenify-all': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.thenify-all-W1lC23Sk',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/to-regex-range': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.to-regex-range-cfmw4TlA',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/ts-interface-checker': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.ts-interface-checker-h47kQ4of',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/update-browserslist-db': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.update-browserslist-db-PAPVGGAx',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/update-browserslist-db': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/.update-browserslist-db-PrvfQADc',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/typescript': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.typescript-9WUBX64a',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/tsc': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/.tsc-TceSsW1A',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/tsserver': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/.tsserver-Me0y8Wms',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/util-deprecate': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.util-deprecate-SUVCIEiH',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/which': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.which-7puM4evq',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/node-which': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/.node-which-nc6LWHiU',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/vite': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.vite-uQnalbaa',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/vite': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.bin/.vite-bhjAuGWP',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/wrap-ansi': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.wrap-ansi-LRzQVjCe',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@alloc/quick-lru': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@alloc/.quick-lru-oPwFo4AO',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/wrap-ansi-cjs': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/.wrap-ansi-cjs-K0YNlV61',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@isaacs/cliui': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@isaacs/.cliui-GX8AQucB',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@jridgewell/gen-mapping': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@jridgewell/.gen-mapping-bf8l5wsG',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@jridgewell/trace-mapping': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@jridgewell/.trace-mapping-Sn72ZXzY',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@jridgewell/resolve-uri': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@jridgewell/.resolve-uri-eufr7JVO',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@jridgewell/sourcemap-codec': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@jridgewell/.sourcemap-codec-IdEvonmP',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@nodelib/fs.scandir': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@nodelib/.fs.scandir-SOjBEajp',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@nodelib/fs.walk': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@nodelib/.fs.walk-jQJ0itkn',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@nodelib/fs.stat': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@nodelib/.fs.stat-VSCUbAmy',
+217 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@pkgjs/parseargs': '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@pkgjs/.parseargs-eWmhGjfs'
+217 silly reify }
+218 silly audit bulk request {
+218 silly audit   '@babel/runtime': [ '7.28.4' ],
+218 silly audit   '@esbuild/aix-ppc64': [ '0.25.11' ],
+218 silly audit   '@esbuild/android-arm': [ '0.25.11' ],
+218 silly audit   '@esbuild/android-arm64': [ '0.25.11' ],
+218 silly audit   '@esbuild/android-x64': [ '0.25.11' ],
+218 silly audit   '@esbuild/darwin-arm64': [ '0.25.11' ],
+218 silly audit   '@esbuild/darwin-x64': [ '0.25.11' ],
+218 silly audit   '@esbuild/freebsd-arm64': [ '0.25.11' ],
+218 silly audit   '@esbuild/freebsd-x64': [ '0.25.11' ],
+218 silly audit   '@esbuild/linux-arm': [ '0.25.11' ],
+218 silly audit   '@esbuild/linux-arm64': [ '0.25.11' ],
+218 silly audit   '@esbuild/linux-ia32': [ '0.25.11' ],
+218 silly audit   '@esbuild/linux-loong64': [ '0.25.11' ],
+218 silly audit   '@esbuild/linux-mips64el': [ '0.25.11' ],
+218 silly audit   '@esbuild/linux-ppc64': [ '0.25.11' ],
+218 silly audit   '@esbuild/linux-riscv64': [ '0.25.11' ],
+218 silly audit   '@esbuild/linux-s390x': [ '0.25.11' ],
+218 silly audit   '@esbuild/linux-x64': [ '0.25.11' ],
+218 silly audit   '@esbuild/netbsd-arm64': [ '0.25.11' ],
+218 silly audit   '@esbuild/netbsd-x64': [ '0.25.11' ],
+218 silly audit   '@esbuild/openbsd-arm64': [ '0.25.11' ],
+218 silly audit   '@esbuild/openbsd-x64': [ '0.25.11' ],
+218 silly audit   '@esbuild/openharmony-arm64': [ '0.25.11' ],
+218 silly audit   '@esbuild/sunos-x64': [ '0.25.11' ],
+218 silly audit   '@esbuild/win32-arm64': [ '0.25.11' ],
+218 silly audit   '@esbuild/win32-ia32': [ '0.25.11' ],
+218 silly audit   '@esbuild/win32-x64': [ '0.25.11' ],
+218 silly audit   '@floating-ui/core': [ '1.7.3' ],
+218 silly audit   '@floating-ui/dom': [ '1.7.4' ],
+218 silly audit   '@floating-ui/react-dom': [ '2.1.6' ],
+218 silly audit   '@floating-ui/utils': [ '0.2.10' ],
+218 silly audit   '@radix-ui/number': [ '1.1.1' ],
+218 silly audit   '@radix-ui/primitive': [ '1.1.3' ],
+218 silly audit   '@radix-ui/react-accordion': [ '1.2.12' ],
+218 silly audit   '@radix-ui/react-alert-dialog': [ '1.1.15' ],
+218 silly audit   '@radix-ui/react-arrow': [ '1.1.7' ],
+218 silly audit   '@radix-ui/react-aspect-ratio': [ '1.1.7' ],
+218 silly audit   '@radix-ui/react-avatar': [ '1.1.10' ],
+218 silly audit   '@radix-ui/react-checkbox': [ '1.3.3' ],
+218 silly audit   '@radix-ui/react-collapsible': [ '1.1.12' ],
+218 silly audit   '@radix-ui/react-collection': [ '1.1.7' ],
+218 silly audit   '@radix-ui/react-compose-refs': [ '1.1.2' ],
+218 silly audit   '@radix-ui/react-context': [ '1.1.2' ],
+218 silly audit   '@radix-ui/react-context-menu': [ '2.2.16' ],
+218 silly audit   '@radix-ui/react-dialog': [ '1.1.15' ],
+218 silly audit   '@radix-ui/react-direction': [ '1.1.1' ],
+218 silly audit   '@radix-ui/react-dismissable-layer': [ '1.1.11' ],
+218 silly audit   '@radix-ui/react-dropdown-menu': [ '2.1.16' ],
+218 silly audit   '@radix-ui/react-focus-guards': [ '1.1.3' ],
+218 silly audit   '@radix-ui/react-focus-scope': [ '1.1.7' ],
+218 silly audit   '@radix-ui/react-hover-card': [ '1.1.15' ],
+218 silly audit   '@radix-ui/react-id': [ '1.1.1' ],
+218 silly audit   '@radix-ui/react-label': [ '2.1.7' ],
+218 silly audit   '@radix-ui/react-menu': [ '2.1.16' ],
+218 silly audit   '@radix-ui/react-menubar': [ '1.1.16' ],
+218 silly audit   '@radix-ui/react-navigation-menu': [ '1.2.14' ],
+218 silly audit   '@radix-ui/react-popover': [ '1.1.15' ],
+218 silly audit   '@radix-ui/react-popper': [ '1.2.8' ],
+218 silly audit   '@radix-ui/react-portal': [ '1.1.9' ],
+218 silly audit   '@radix-ui/react-presence': [ '1.1.5' ],
+218 silly audit   '@radix-ui/react-primitive': [ '2.1.3' ],
+218 silly audit   '@radix-ui/react-progress': [ '1.1.7' ],
+218 silly audit   '@radix-ui/react-radio-group': [ '1.3.8' ],
+218 silly audit   '@radix-ui/react-roving-focus': [ '1.1.11' ],
+218 silly audit   '@radix-ui/react-scroll-area': [ '1.2.10' ],
+218 silly audit   '@radix-ui/react-select': [ '2.2.6' ],
+218 silly audit   '@radix-ui/react-separator': [ '1.1.7' ],
+218 silly audit   '@radix-ui/react-slider': [ '1.3.6' ],
+218 silly audit   '@radix-ui/react-slot': [ '1.2.3' ],
+218 silly audit   '@radix-ui/react-switch': [ '1.2.6' ],
+218 silly audit   '@radix-ui/react-tabs': [ '1.1.13' ],
+218 silly audit   '@radix-ui/react-toggle': [ '1.1.10' ],
+218 silly audit   '@radix-ui/react-toggle-group': [ '1.1.11' ],
+218 silly audit   '@radix-ui/react-tooltip': [ '1.2.8' ],
+218 silly audit   '@radix-ui/react-use-callback-ref': [ '1.1.1' ],
+218 silly audit   '@radix-ui/react-use-controllable-state': [ '1.2.2' ],
+218 silly audit   '@radix-ui/react-use-effect-event': [ '0.0.2' ],
+218 silly audit   '@radix-ui/react-use-escape-keydown': [ '1.1.1' ],
+218 silly audit   '@radix-ui/react-use-is-hydrated': [ '0.1.0' ],
+218 silly audit   '@radix-ui/react-use-layout-effect': [ '1.1.1' ],
+218 silly audit   '@radix-ui/react-use-previous': [ '1.1.1' ],
+218 silly audit   '@radix-ui/react-use-rect': [ '1.1.1' ],
+218 silly audit   '@radix-ui/react-use-size': [ '1.1.1' ],
+218 silly audit   '@radix-ui/react-visually-hidden': [ '1.2.3' ],
+218 silly audit   '@radix-ui/rect': [ '1.1.1' ],
+218 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.27' ],
+218 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-android-arm64': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-darwin-arm64': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-darwin-x64': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-freebsd-x64': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.52.5' ],
+218 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.52.5' ],
+218 silly audit   '@swc/core': [ '1.13.5' ],
+218 silly audit   '@swc/core-darwin-arm64': [ '1.13.5' ],
+218 silly audit   '@swc/core-darwin-x64': [ '1.13.5' ],
+218 silly audit   '@swc/core-linux-arm-gnueabihf': [ '1.13.5' ],
+218 silly audit   '@swc/core-linux-arm64-gnu': [ '1.13.5' ],
+218 silly audit   '@swc/core-linux-arm64-musl': [ '1.13.5' ],
+218 silly audit   '@swc/core-linux-x64-gnu': [ '1.13.5' ],
+218 silly audit   '@swc/core-linux-x64-musl': [ '1.13.5' ],
+218 silly audit   '@swc/core-win32-arm64-msvc': [ '1.13.5' ],
+218 silly audit   '@swc/core-win32-ia32-msvc': [ '1.13.5' ],
+218 silly audit   '@swc/core-win32-x64-msvc': [ '1.13.5' ],
+218 silly audit   '@swc/counter': [ '0.1.3' ],
+218 silly audit   '@swc/types': [ '0.1.25' ],
+218 silly audit   '@types/d3-array': [ '3.2.2' ],
+218 silly audit   '@types/d3-color': [ '3.1.3' ],
+218 silly audit   '@types/d3-ease': [ '3.0.2' ],
+218 silly audit   '@types/d3-interpolate': [ '3.0.4' ],
+218 silly audit   '@types/d3-path': [ '3.1.1' ],
+218 silly audit   '@types/d3-scale': [ '4.0.9' ],
+218 silly audit   '@types/d3-shape': [ '3.1.7' ],
+218 silly audit   '@types/d3-time': [ '3.0.4' ],
+218 silly audit   '@types/d3-timer': [ '3.0.2' ],
+218 silly audit   '@types/estree': [ '1.0.8' ],
+218 silly audit   '@types/node': [ '20.19.24' ],
+218 silly audit   '@types/prop-types': [ '15.7.15' ],
+218 silly audit   '@types/react': [ '18.3.26' ],
+218 silly audit   '@types/react-dom': [ '18.3.7' ],
+218 silly audit   '@vitejs/plugin-react-swc': [ '3.11.0' ],
+218 silly audit   'aria-hidden': [ '1.2.6' ],
+218 silly audit   'class-variance-authority': [ '0.7.1' ],
+218 silly audit   clsx: [ '2.1.1' ],
+218 silly audit   cmdk: [ '1.1.1' ],
+218 silly audit   csstype: [ '3.1.3' ],
+218 silly audit   'd3-array': [ '3.2.4' ],
+218 silly audit   'd3-color': [ '3.1.0' ],
+218 silly audit   'd3-ease': [ '3.0.1' ],
+218 silly audit   'd3-format': [ '3.1.0' ],
+218 silly audit   'd3-interpolate': [ '3.0.1' ],
+218 silly audit   'd3-path': [ '3.1.0' ],
+218 silly audit   'd3-scale': [ '4.0.2' ],
+218 silly audit   'd3-shape': [ '3.2.0' ],
+218 silly audit   'd3-time': [ '3.1.0' ],
+218 silly audit   'd3-time-format': [ '4.1.0' ],
+218 silly audit   'd3-timer': [ '3.0.1' ],
+218 silly audit   'date-fns': [ '3.6.0' ],
+218 silly audit   'decimal.js-light': [ '2.5.1' ],
+218 silly audit   'detect-node-es': [ '1.1.0' ],
+218 silly audit   'dom-helpers': [ '5.2.1' ],
+218 silly audit   'embla-carousel': [ '8.6.0' ],
+218 silly audit   'embla-carousel-react': [ '8.6.0' ],
+218 silly audit   'embla-carousel-reactive-utils': [ '8.6.0' ],
+218 silly audit   esbuild: [ '0.25.11' ],
+218 silly audit   eventemitter3: [ '4.0.7' ],
+218 silly audit   'fast-equals': [ '5.3.2' ],
+218 silly audit   fsevents: [ '2.3.3' ],
+218 silly audit   'get-nonce': [ '1.0.1' ],
+218 silly audit   'input-otp': [ '1.4.2' ],
+218 silly audit   internmap: [ '2.0.3' ],
+218 silly audit   jiti: [ '1.21.7' ],
+218 silly audit   'js-tokens': [ '4.0.0' ],
+218 silly audit   lodash: [ '4.17.21' ],
+218 silly audit   'loose-envify': [ '1.4.0' ],
+218 silly audit   'lucide-react': [ '0.487.0' ],
+218 silly audit   nanoid: [ '3.3.11' ],
+218 silly audit   'next-themes': [ '0.4.6' ],
+218 silly audit   'object-assign': [ '4.1.1' ],
+218 silly audit   picocolors: [ '1.1.1' ],
+218 silly audit   picomatch: [ '4.0.3' ],
+218 silly audit   postcss: [ '8.5.6' ],
+218 silly audit   'prop-types': [ '15.8.1' ],
+218 silly audit   'react-is': [ '16.13.1', '18.3.1' ],
+218 silly audit   react: [ '18.3.1' ],
+218 silly audit   'react-day-picker': [ '8.10.1' ],
+218 silly audit   'react-dom': [ '18.3.1' ],
+218 silly audit   'react-hook-form': [ '7.65.0' ],
+218 silly audit   'react-remove-scroll': [ '2.7.1' ],
+218 silly audit   'react-remove-scroll-bar': [ '2.3.8' ],
+218 silly audit   'react-resizable-panels': [ '2.1.9' ],
+218 silly audit   'react-smooth': [ '4.0.4' ],
+218 silly audit   'react-style-singleton': [ '2.2.3' ],
+218 silly audit   'react-transition-group': [ '4.4.5' ],
+218 silly audit   recharts: [ '2.15.4' ],
+218 silly audit   'recharts-scale': [ '0.4.5' ],
+218 silly audit   rollup: [ '4.52.5' ],
+218 silly audit   scheduler: [ '0.23.2' ],
+218 silly audit   sonner: [ '2.0.7' ],
+218 silly audit   'source-map-js': [ '1.2.1' ],
+218 silly audit   'tailwind-merge': [ '2.6.0' ],
+218 silly audit   'tiny-invariant': [ '1.3.3' ],
+218 silly audit   tinyglobby: [ '0.2.15' ],
+218 silly audit   fdir: [ '6.5.0' ],
+218 silly audit   tslib: [ '2.8.1' ],
+218 silly audit   'undici-types': [ '6.21.0' ],
+218 silly audit   'use-callback-ref': [ '1.3.3' ],
+218 silly audit   'use-sidecar': [ '1.1.3' ],
+218 silly audit   'use-sync-external-store': [ '1.6.0' ],
+218 silly audit   vaul: [ '1.1.2' ],
+218 silly audit   'victory-vendor': [ '36.9.2' ],
+218 silly audit   motion: [ '12.23.24' ],
+218 silly audit   vite: [ '6.3.5' ],
+218 silly audit   'framer-motion': [ '12.23.24' ],
+218 silly audit   'motion-dom': [ '12.23.23' ],
+218 silly audit   'motion-utils': [ '12.23.6' ]
+218 silly audit }
+219 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-win32-x64-msvc
+220 silly reify mark deleted [
+220 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-win32-x64-msvc'
+220 silly reify ]
+221 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-win32-ia32-msvc
+222 silly reify mark deleted [
+222 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-win32-ia32-msvc'
+222 silly reify ]
+223 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-win32-arm64-msvc
+224 silly reify mark deleted [
+224 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-win32-arm64-msvc'
+224 silly reify ]
+225 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-linux-x64-musl
+226 silly reify mark deleted [
+226 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-linux-x64-musl'
+226 silly reify ]
+227 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-linux-x64-gnu
+228 silly reify mark deleted [
+228 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-linux-x64-gnu'
+228 silly reify ]
+229 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-linux-arm64-musl
+230 silly reify mark deleted [
+230 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-linux-arm64-musl'
+230 silly reify ]
+231 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-linux-arm64-gnu
+232 silly reify mark deleted [
+232 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-linux-arm64-gnu'
+232 silly reify ]
+233 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-linux-arm-gnueabihf
+234 silly reify mark deleted [
+234 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-linux-arm-gnueabihf'
+234 silly reify ]
+235 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-darwin-arm64
+236 silly reify mark deleted [
+236 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@swc/core-darwin-arm64'
+236 silly reify ]
+237 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-win32-x64-msvc
+238 silly reify mark deleted [
+238 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-win32-x64-msvc'
+238 silly reify ]
+239 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-win32-x64-gnu
+240 silly reify mark deleted [
+240 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-win32-x64-gnu'
+240 silly reify ]
+241 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-win32-ia32-msvc
+242 silly reify mark deleted [
+242 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-win32-ia32-msvc'
+242 silly reify ]
+243 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-win32-arm64-msvc
+244 silly reify mark deleted [
+244 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-win32-arm64-msvc'
+244 silly reify ]
+245 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-openharmony-arm64
+246 silly reify mark deleted [
+246 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-openharmony-arm64'
+246 silly reify ]
+247 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-x64-musl
+248 silly reify mark deleted [
+248 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-x64-musl'
+248 silly reify ]
+249 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-x64-gnu
+250 silly reify mark deleted [
+250 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-x64-gnu'
+250 silly reify ]
+251 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-s390x-gnu
+252 silly reify mark deleted [
+252 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-s390x-gnu'
+252 silly reify ]
+253 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-riscv64-musl
+254 silly reify mark deleted [
+254 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-riscv64-musl'
+254 silly reify ]
+255 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-riscv64-gnu
+256 silly reify mark deleted [
+256 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-riscv64-gnu'
+256 silly reify ]
+257 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-ppc64-gnu
+258 silly reify mark deleted [
+258 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-ppc64-gnu'
+258 silly reify ]
+259 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-loong64-gnu
+260 silly reify mark deleted [
+260 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-loong64-gnu'
+260 silly reify ]
+261 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-arm64-musl
+262 silly reify mark deleted [
+262 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-arm64-musl'
+262 silly reify ]
+263 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-arm64-gnu
+264 silly reify mark deleted [
+264 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-arm64-gnu'
+264 silly reify ]
+265 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-arm-musleabihf
+266 silly reify mark deleted [
+266 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-arm-musleabihf'
+266 silly reify ]
+267 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-arm-gnueabihf
+268 silly reify mark deleted [
+268 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+268 silly reify ]
+269 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-freebsd-x64
+270 silly reify mark deleted [
+270 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-freebsd-x64'
+270 silly reify ]
+271 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-freebsd-arm64
+272 silly reify mark deleted [
+272 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-freebsd-arm64'
+272 silly reify ]
+273 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-darwin-arm64
+274 silly reify mark deleted [
+274 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-darwin-arm64'
+274 silly reify ]
+275 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-android-arm64
+276 silly reify mark deleted [
+276 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-android-arm64'
+276 silly reify ]
+277 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-android-arm-eabi
+278 silly reify mark deleted [
+278 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@rollup/rollup-android-arm-eabi'
+278 silly reify ]
+279 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/win32-x64
+280 silly reify mark deleted [
+280 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/win32-x64'
+280 silly reify ]
+281 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/win32-ia32
+282 silly reify mark deleted [
+282 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/win32-ia32'
+282 silly reify ]
+283 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/win32-arm64
+284 silly reify mark deleted [
+284 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/win32-arm64'
+284 silly reify ]
+285 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/sunos-x64
+286 silly reify mark deleted [
+286 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/sunos-x64'
+286 silly reify ]
+287 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/openharmony-arm64
+288 silly reify mark deleted [
+288 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/openharmony-arm64'
+288 silly reify ]
+289 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/openbsd-x64
+290 silly reify mark deleted [
+290 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/openbsd-x64'
+290 silly reify ]
+291 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/openbsd-arm64
+292 silly reify mark deleted [
+292 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/openbsd-arm64'
+292 silly reify ]
+293 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/netbsd-x64
+294 silly reify mark deleted [
+294 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/netbsd-x64'
+294 silly reify ]
+295 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/netbsd-arm64
+296 silly reify mark deleted [
+296 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/netbsd-arm64'
+296 silly reify ]
+297 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-x64
+298 silly reify mark deleted [
+298 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-x64'
+298 silly reify ]
+299 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-s390x
+300 silly reify mark deleted [
+300 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-s390x'
+300 silly reify ]
+301 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-riscv64
+302 silly reify mark deleted [
+302 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-riscv64'
+302 silly reify ]
+303 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-ppc64
+304 silly reify mark deleted [
+304 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-ppc64'
+304 silly reify ]
+305 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-mips64el
+306 silly reify mark deleted [
+306 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-mips64el'
+306 silly reify ]
+307 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-loong64
+308 silly reify mark deleted [
+308 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-loong64'
+308 silly reify ]
+309 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-ia32
+310 silly reify mark deleted [
+310 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-ia32'
+310 silly reify ]
+311 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-arm64
+312 silly reify mark deleted [
+312 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-arm64'
+312 silly reify ]
+313 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-arm
+314 silly reify mark deleted [
+314 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/linux-arm'
+314 silly reify ]
+315 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/freebsd-x64
+316 silly reify mark deleted [
+316 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/freebsd-x64'
+316 silly reify ]
+317 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/freebsd-arm64
+318 silly reify mark deleted [
+318 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/freebsd-arm64'
+318 silly reify ]
+319 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/darwin-arm64
+320 silly reify mark deleted [
+320 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/darwin-arm64'
+320 silly reify ]
+321 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/android-x64
+322 silly reify mark deleted [
+322 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/android-x64'
+322 silly reify ]
+323 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/android-arm64
+324 silly reify mark deleted [
+324 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/android-arm64'
+324 silly reify ]
+325 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/android-arm
+326 silly reify mark deleted [
+326 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/android-arm'
+326 silly reify ]
+327 verbose reify failed optional dependency /Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/aix-ppc64
+328 silly reify mark deleted [
+328 silly reify   '/Users/macbook/Downloads/Futuristic Consulting Website Plan/node_modules/@esbuild/aix-ppc64'
+328 silly reify ]
+329 http cache motion@https://registry.npmjs.org/motion/-/motion-12.23.24.tgz 0ms (cache hit)
+330 http cache motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-12.23.23.tgz 0ms (cache hit)
+331 http cache vite@https://registry.npmjs.org/vite/-/vite-6.3.5.tgz 0ms (cache hit)
+332 http cache fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 0ms (cache hit)
+333 http cache framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-12.23.24.tgz 0ms (cache hit)
+334 http cache motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-12.23.6.tgz 0ms (cache hit)
+335 silly tarball no local data for motion@https://registry.npmjs.org/motion/-/motion-12.23.24.tgz. Extracting by manifest.
+336 silly tarball no local data for motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-12.23.23.tgz. Extracting by manifest.
+337 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-6.3.5.tgz. Extracting by manifest.
+338 silly tarball no local data for fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz. Extracting by manifest.
+339 silly tarball no local data for framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-12.23.24.tgz. Extracting by manifest.
+340 silly tarball no local data for motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-12.23.6.tgz. Extracting by manifest.
+341 http fetch GET 200 https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 225ms (cache miss)
+342 http fetch GET 200 https://registry.npmjs.org/motion/-/motion-12.23.24.tgz 229ms (cache miss)
+343 http fetch GET 200 https://registry.npmjs.org/motion-utils/-/motion-utils-12.23.6.tgz 239ms (cache miss)
+344 http fetch GET 200 https://registry.npmjs.org/motion-dom/-/motion-dom-12.23.23.tgz 299ms (cache miss)
+345 http fetch GET 200 https://registry.npmjs.org/framer-motion/-/framer-motion-12.23.24.tgz 441ms (cache miss)
+346 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 481ms
+347 silly audit report {
+347 silly audit report   vite: [
+347 silly audit report     {
+347 silly audit report       id: 1107324,
+347 silly audit report       url: 'https://github.com/advisories/GHSA-g4jq-h2w9-997c',
+347 silly audit report       title: 'Vite middleware may serve files starting with the same name with the public directory',
+347 silly audit report       severity: 'low',
+347 silly audit report       vulnerable_versions: '>=6.0.0 <=6.3.5',
+347 silly audit report       cwe: [Array],
+347 silly audit report       cvss: [Object]
+347 silly audit report     },
+347 silly audit report     {
+347 silly audit report       id: 1107328,
+347 silly audit report       url: 'https://github.com/advisories/GHSA-jqfw-vq24-v9c3',
+347 silly audit report       title: "Vite's `server.fs` settings were not applied to HTML files",
+347 silly audit report       severity: 'low',
+347 silly audit report       vulnerable_versions: '>=6.0.0 <=6.3.5',
+347 silly audit report       cwe: [Array],
+347 silly audit report       cvss: [Object]
+347 silly audit report     },
+347 silly audit report     {
+347 silly audit report       id: 1109135,
+347 silly audit report       url: 'https://github.com/advisories/GHSA-93m4-6634-74q7',
+347 silly audit report       title: 'vite allows server.fs.deny bypass via backslash on Windows',
+347 silly audit report       severity: 'moderate',
+347 silly audit report       vulnerable_versions: '>=6.0.0 <=6.4.0',
+347 silly audit report       cwe: [Array],
+347 silly audit report       cvss: [Object]
+347 silly audit report     }
+347 silly audit report   ]
+347 silly audit report }
+348 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+349 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-6.3.5.tgz 562ms (cache miss)
+350 http fetch GET 200 https://registry.npmjs.org/vite 853ms (cache miss)
+351 silly packumentCache corgi:https://registry.npmjs.org/vite set size:undefined disposed:false
+352 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react-swc cache-miss
+353 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-react-swc 606ms (cache miss)
+354 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react-swc set size:undefined disposed:false
+355 silly ADD node_modules/motion
+356 silly ADD node_modules/fsevents
+357 silly ADD
+358 silly ADD
+359 silly ADD
+360 silly ADD
+361 silly ADD
+362 silly ADD
+363 silly ADD
+364 silly ADD
+365 silly ADD
+366 silly ADD
+367 silly ADD
+368 silly ADD
+369 silly ADD
+370 silly ADD
+371 silly ADD
+372 silly ADD
+373 silly ADD
+374 silly ADD
+375 silly ADD
+376 silly ADD
+377 silly ADD
+378 silly ADD
+379 silly ADD
+380 silly ADD
+381 silly ADD
+382 silly ADD
+383 silly ADD
+384 silly ADD
+385 silly ADD
+386 silly ADD
+387 silly ADD
+388 silly ADD
+389 silly ADD
+390 silly ADD
+391 silly ADD
+392 silly ADD
+393 silly ADD
+394 silly ADD
+395 silly ADD
+396 silly ADD
+397 silly ADD
+398 silly ADD
+399 silly ADD
+400 silly ADD
+401 silly ADD
+402 silly ADD
+403 silly ADD
+404 silly ADD
+405 silly ADD
+406 silly ADD
+407 silly ADD
+408 silly ADD
+409 silly ADD
+410 silly ADD
+411 silly ADD
+412 silly REMOVE node_modules/@pkgjs/parseargs
+413 silly REMOVE node_modules/@nodelib/fs.stat
+414 silly REMOVE node_modules/@nodelib/fs.walk
+415 silly REMOVE node_modules/@nodelib/fs.scandir
+416 silly REMOVE node_modules/@jridgewell/sourcemap-codec
+417 silly REMOVE node_modules/@jridgewell/resolve-uri
+418 silly REMOVE node_modules/@jridgewell/trace-mapping
+419 silly REMOVE node_modules/@jridgewell/gen-mapping
+420 silly REMOVE node_modules/@isaacs/cliui
+421 silly REMOVE node_modules/wrap-ansi-cjs
+422 silly REMOVE node_modules/wrap-ansi-cjs/node_modules/strip-ansi
+423 silly REMOVE node_modules/wrap-ansi-cjs/node_modules/string-width
+424 silly REMOVE node_modules/wrap-ansi-cjs/node_modules/ansi-styles
+425 silly REMOVE node_modules/wrap-ansi-cjs/node_modules/emoji-regex
+426 silly REMOVE node_modules/wrap-ansi-cjs/node_modules/ansi-regex
+427 silly REMOVE node_modules/@alloc/quick-lru
+428 silly REMOVE node_modules/wrap-ansi
+429 silly CHANGE node_modules/vite
+430 silly REMOVE node_modules/which
+431 silly REMOVE node_modules/util-deprecate
+432 silly REMOVE node_modules/typescript
+433 silly REMOVE node_modules/update-browserslist-db
+434 silly REMOVE node_modules/ts-interface-checker
+435 silly REMOVE node_modules/to-regex-range
+436 silly REMOVE node_modules/thenify-all
+437 silly REMOVE node_modules/thenify
+438 silly REMOVE node_modules/tailwindcss
+439 silly REMOVE node_modules/strip-ansi-cjs
+440 silly REMOVE node_modules/strip-ansi-cjs/node_modules/ansi-regex
+441 silly REMOVE node_modules/supports-preserve-symlinks-flag
+442 silly REMOVE node_modules/sucrase
+443 silly REMOVE node_modules/strip-ansi
+444 silly REMOVE node_modules/string-width-cjs
+445 silly REMOVE node_modules/string-width-cjs/node_modules/emoji-regex
+446 silly REMOVE node_modules/string-width-cjs/node_modules/strip-ansi
+447 silly REMOVE node_modules/string-width-cjs/node_modules/ansi-regex
+448 silly REMOVE node_modules/string-width
+449 silly REMOVE node_modules/signal-exit
+450 silly REMOVE node_modules/shebang-command
+451 silly REMOVE node_modules/shebang-regex
+452 silly REMOVE node_modules/run-parallel
+453 silly REMOVE node_modules/reusify
+454 silly REMOVE node_modules/resolve
+455 silly REMOVE node_modules/readdirp
+456 silly REMOVE node_modules/read-cache
+457 silly REMOVE node_modules/postcss-value-parser
+458 silly REMOVE node_modules/queue-microtask
+459 silly REMOVE node_modules/postcss-selector-parser
+460 silly REMOVE node_modules/postcss-nested
+461 silly REMOVE node_modules/postcss-load-config
+462 silly REMOVE node_modules/postcss-js
+463 silly REMOVE node_modules/postcss-import
+464 silly REMOVE node_modules/pirates
+465 silly REMOVE node_modules/pify
+466 silly REMOVE node_modules/picomatch
+467 silly REMOVE node_modules/normalize-path
+468 silly REMOVE node_modules/path-scurry
+469 silly REMOVE node_modules/path-parse
+470 silly REMOVE node_modules/path-key
+471 silly REMOVE node_modules/package-json-from-dist
+472 silly REMOVE node_modules/object-hash
+473 silly REMOVE node_modules/normalize-range
+474 silly REMOVE node_modules/node-releases
+475 silly CHANGE node_modules/motion-dom
+476 silly REMOVE node_modules/mz
+477 silly REMOVE node_modules/minipass
+478 silly CHANGE node_modules/motion-utils
+479 silly REMOVE node_modules/minimatch
+480 silly REMOVE node_modules/micromatch
+481 silly REMOVE node_modules/lilconfig
+482 silly REMOVE node_modules/merge2
+483 silly REMOVE node_modules/lru-cache
+484 silly REMOVE node_modules/lines-and-columns
+485 silly REMOVE node_modules/is-number
+486 silly REMOVE node_modules/jackspeak
+487 silly REMOVE node_modules/is-glob
+488 silly REMOVE node_modules/isexe
+489 silly REMOVE node_modules/is-fullwidth-code-point
+490 silly REMOVE node_modules/is-binary-path
+491 silly REMOVE node_modules/is-extglob
+492 silly REMOVE node_modules/is-core-module
+493 silly REMOVE node_modules/hasown
+494 silly REMOVE node_modules/glob-parent
+495 silly REMOVE node_modules/glob
+496 silly CHANGE node_modules/framer-motion
+497 silly REMOVE node_modules/function-bind
+498 silly REMOVE node_modules/fraction.js
+499 silly REMOVE node_modules/foreground-child
+500 silly REMOVE node_modules/fastq
+501 silly REMOVE node_modules/fill-range
+502 silly REMOVE node_modules/fast-glob
+503 silly REMOVE node_modules/fast-glob/node_modules/glob-parent
+504 silly REMOVE node_modules/escalade
+505 silly REMOVE node_modules/emoji-regex
+506 silly REMOVE node_modules/electron-to-chromium
+507 silly REMOVE node_modules/eastasianwidth
+508 silly REMOVE node_modules/didyoumean
+509 silly REMOVE node_modules/dlv
+510 silly REMOVE node_modules/cross-spawn
+511 silly REMOVE node_modules/cssesc
+512 silly REMOVE node_modules/commander
+513 silly REMOVE node_modules/color-name
+514 silly REMOVE node_modules/color-convert
+515 silly REMOVE node_modules/chokidar
+516 silly REMOVE node_modules/chokidar/node_modules/glob-parent
+517 silly REMOVE node_modules/camelcase-css
+518 silly REMOVE node_modules/caniuse-lite
+519 silly REMOVE node_modules/browserslist
+520 silly REMOVE node_modules/braces
+521 silly REMOVE node_modules/brace-expansion
+522 silly REMOVE node_modules/baseline-browser-mapping
+523 silly REMOVE node_modules/binary-extensions
+524 silly REMOVE node_modules/arg
+525 silly REMOVE node_modules/balanced-match
+526 silly REMOVE node_modules/autoprefixer
+527 silly REMOVE node_modules/any-promise
+528 silly REMOVE node_modules/ansi-styles
+529 silly REMOVE node_modules/anymatch
+530 silly REMOVE node_modules/ansi-regex
+531 verbose cwd /Users/macbook/Downloads/Futuristic Consulting Website Plan
+532 verbose os Darwin 24.4.0
+533 verbose node v22.19.0
+534 verbose npm  v10.9.3
+535 notice
+535 notice New major version of npm available! 10.9.3 -> 11.6.2
+535 notice Changelog: https://github.com/npm/cli/releases/tag/v11.6.2
+535 notice To update run: npm install -g npm@11.6.2
+535 notice  { force: true, [Symbol(proc-log.meta)]: true }
+536 verbose exit 0
+537 info ok
